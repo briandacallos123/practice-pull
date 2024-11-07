@@ -15,6 +15,12 @@ app.get('/books', (req, res) => {
     res.send("Sending all books")
 })
 
+
+app.get('/money', (req, res) => {
+    res.send("Sending all money")
+})
+
+
 app.listen(5000,()=>{
     console.log("Running on port 5000")
 })
